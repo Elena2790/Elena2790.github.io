@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandorla website</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <!--Bootstrap CSS CDN link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Google Fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <!--Font awesome for Social Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-sm rounded" aria-label="Menu">
+            <div class="container-fluid">
+                <a class="navbar-brand me-sm-0" id="Mandorla"><i class="fas fa-paw me-2" style="color: #4C3B29;"></i>
+                    Mandorla</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarsExample11">
+                    <ul class="navbar-nav justify-content-sm-center w-100">
+                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="#about_me">About me</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="Gallery.html">Gallery</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="friends.html">My friends</a></li>
+                        <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Shop</a> </li>  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Carousel-->
+        <div class="w-100 mb-0 py-5">
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+
+                        <div id="carouselExampleFade"
+                            class="carousel slide carousel-fade rounded-4 shadow-lg overflow-hidden bg-white"
+                            data-bs-ride="carousel" style="height: 400px;">
+
+                            <div class="carousel-inner h-100">
+
+                                <div class="carousel-item active h-100">
+                                    <img src="Mandorla/man_spiaggia.jpg" class="d-block w-100"
+                                        style="height: 100%; object-fit: cover;" alt="Mandorla at sunset">
+                                </div>
+
+                                <div class="carousel-item h-100">
+                                    <img src="Mandorla/man_bebe.jpg" class="d-block w-100"
+                                        style="height: 100%; object-fit: cover;" alt="Baby Mandorla">
+                                </div>
+
+                                <div class="carousel-item h-100">
+                                    <img src="Mandorla/man_prato.jpg" class="d-block w-100"
+                                        style="height: 100%; object-fit: cover;" alt="Mandorla at the beach">
+                                </div>
+
+                            </div>
+                        <!--buttons-->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About me-->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-8">
+
+                        <div class="px-4 py-5 text-center rounded-4 shadow-lg" id="about_me"
+                            style="background-color:rgba(246, 229, 189, 0.899);">
+
+                            <h1 class="display-5 fw-bold text-body-emphasis">About me</h1>
+
+                            <div class="col-sm-10 mx-auto">
+                                <p class="lead mb-4 mt-4">
+                                    Hi there! My name is <strong>Mandorla</strong> (which means 'Almond' in Italian!)
+                                    and I'm a
+                                    joyful <a href="https://en.wikipedia.org/wiki/Labrador_Retriever" target="_blank"
+                                        style="color: #D46A0A;">Labrador Retriever</a><br>
+                                    I was born on October 20th, 2022, in a cozy little town in beautiful Sardinia,
+                                    Italy.
+                                    Maybe that’s why I’m such a <strong><em>sun-loving, energetic
+                                            girl!</em></strong><br>
+                                    My life is simple: I adore the <em>sea</em>, and any day spent <em>running on the
+                                        beach</em> is the best day.
+                                    My favorite things in the world are <em>playtime</em>, getting all the
+                                    <em>cuddles</em> I can, and hanging out with my humans.
+                                    I’m especially fond of <strong><em>children</em></strong>—they make the best
+                                    playmates and cuddle buddies!
+                                    They say I have a smile that can melt any heart, and my honey-coloured coat means I
+                                    always stand out in a crowd.<br><br>
+                                    <strong><em>I'm always ready for a new adventure, especially if treats are
+                                            involved!</em></strong>
+                                </p>
+                                <!--rounded pic-->
+                                <img src="Mandorla/man_tramonto.jpg" class="rounded-circle shadow-sm mb-4"
+                                    alt="Ritratto di Mandorla" id="round_photo"
+                                    style="width: 150px; height: 150px; object-fit: cover;">
+                            </div>
+                            <!--buttons-->
+                            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                                <a href="Gallery.html" role="button" class="btn btn-primary px-4 rounded-pill">
+                                    Watch My Photo Gallery
+                                </a>
+                                <a href="friends.html" role="button"
+                                    class="btn btn-outline-secondary px-4 rounded-pill">
+                                    My friends
+                                </a>
+                            </div>
+                            <!--Back to top-->
+                            <div class="text-center">
+                                <a href="#Mandorla" class="text-decoration-none text-muted small"
+                                    style="font-family: 'Quicksand', sans-serif;">
+                                    <i class="fas fa-arrow-circle-up me-1"></i>
+                                    BACK TO TOP
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer-->
+    <footer id="social" class="py-4 mt-auto" style="background-color: #F3E5AB;">
+        <div class="container">
+            <div class="row justify-content-between align-items-center pt-3">
+
+                <div class="col-sm-6 d-flex align-items-center">
+                    <span class="mb-0 me-3"
+                        style="font-family: 'Quicksand', sans-serif; font-size: 1.8rem; font-weight: 700; color: #D46A0A;">
+                        Mandorla
+                    </span>
+
+                    <span class="mb-0 text-body-secondary" style="font-family: 'Lato', sans-serif; font-size: 0.9rem;">
+                        © 2025 Mandorla's World. All Rights Reserved.
+                    </span>
+                </div>
+                <!--Social-->
+                <div class="col-sm-6">
+                    <ul class="nav justify-content-end list-unstyled d-flex">
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="https://www.instagram.com/" target="_blank"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram fa-2x" style="color: #D46A0A;"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="https://www.facebook.com/ " target="_blank"
+                                aria-label="Facebook">
+                                <i class="fab fa-facebook-f fa-2x" style="color: #D46A0A;"></i>
+                            </a>
+                        </li>
+                        <li class="ms-3">
+                            <a class="text-body-secondary" href="https://www.tiktok.com/" target="_blank"
+                                aria-label="TikTok">
+                                <i class="fab fa-tiktok fa-2x" style="color: #D46A0A;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap JS CDN link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
